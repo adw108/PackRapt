@@ -1,4 +1,30 @@
 Packrapt::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contact"
+
+  get "pages/login"
+
+  get "pages/signup"
+
+  get "pages/video"
+
+  get "pages/upload"
+
+  get "pages/about"
+
+  get "pages/support"
+
+  get "pages/pricing"
+
+  get "pages/investors"
+
+  get "pages/community"
+
+  get "pages/blog"
+
+  get "pages/partners"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

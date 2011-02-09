@@ -1,0 +1,57 @@
+body {
+	background-color: #fff;
+	background-image:url('http://i.min.us/ie3w1A.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "Arial" sans-serif;
+	}
+	
+header ul{
+	text-align: center;
+	margin-left: 600px;
+}
+
+header ul li{
+	padding: 5px;
+	display: inline;	
+}
+
+header a{
+	text-decoration: none;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+#search{
+	text-align: center;
+	margin-top: 300px;
+}
+
+#add{
+	margin-top: 140px;
+	text-align: center;
+}
+
+#video{
+	margin-top: 180px;
+	text-align: center;
+}
+
+footer{
+	margin-top: 240px;
+}
+
+footer ul li{
+	text-align: center;
+	list-style: none;
+}
+footer a{
+	font-size: 14px;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
