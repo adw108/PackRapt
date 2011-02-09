@@ -1,30 +1,34 @@
 Packrapt::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/contact"
-
-  get "pages/login"
-
-  get "pages/signup"
-
-  get "pages/video"
-
-  get "pages/upload"
-
-  get "pages/about"
-
-  get "pages/support"
-
-  get "pages/pricing"
-
-  get "pages/investors"
-
-  get "pages/community"
-
-  get "pages/blog"
-
-  get "pages/partners"
-
+  # get "pages/home"
+  root :to => 'pages#home'
+  # get "pages/contact"
+  match 'contact', :to => 'pages#contact'
+  # get "pages/login"
+  match 'login', :to => 'pages#login'
+  # get "pages/signup"
+  match 'signup', :to => 'pages#signup'
+  # get "pages/video"
+  match 'video', :to => 'pages#video'
+  # get "pages/upload"
+  match 'upload', :to => 'pages#upload'
+  # get "pages/about"
+  match 'about', :to => 'pages#about'
+  # get "pages/support"
+  match 'support', :to => 'pages#support'
+  # get "pages/pricing"
+  match 'pricing', :to => 'pages#pricing'
+  # get "pages/investors"
+  match 'investors', :to => 'pages#investors'
+  # get "pages/community"
+  match 'community', :to => 'pages#community'
+  # get "pages/blog"
+  match 'blog', :to => 'pages#blog'
+  # get "pages/partners"
+  match 'partners', :to => 'pages#partners'
+  
+  # root_path => '/'
+  # root_url  => 'http://localhost:3000/'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -74,7 +78,7 @@ Packrapt::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  # root :to => "pages#{home}"
 
   # See how all your routes lay out with "rake routes"
 
